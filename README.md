@@ -1,4 +1,4 @@
-# Anti DDOS BASH SCRIPT
+# Anti DDOS | BASH SCRIPT
 
 ![norse-ddos-map](https://cloud.githubusercontent.com/assets/15425071/20461640/87ce444e-af0c-11e6-80dd-68cdb897be1b.gif)
 
