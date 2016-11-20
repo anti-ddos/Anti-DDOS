@@ -1,1 +1,1 @@
-# Anti-DDOS-bash-script-
+# Anti DDOS BASH SCRIPT
