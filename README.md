@@ -1,7 +1,7 @@
 # Anti DDOS | BASH SCRIPT
 
 <p align="center">
-  ![anti-ddos](https://user-images.githubusercontent.com/15425071/34910181-caa9f41c-f8c0-11e7-9ec5-6d43adfeb4bd.png)
+  <img src="https://media.giphy.com/media/RwGLXLtFyHBsY/giphy.gif">
 </p>
 
 ## Programming Languages :
