@@ -1,6 +1,8 @@
 # Anti DDOS | BASH SCRIPT
 
-![norse-ddos-map](https://cloud.githubusercontent.com/assets/15425071/20461640/87ce444e-af0c-11e6-80dd-68cdb897be1b.gif)
+<p align="center">
+  ![anti-ddos](https://user-images.githubusercontent.com/15425071/34910181-caa9f41c-f8c0-11e7-9ec5-6d43adfeb4bd.png)
+</p>
 
 ## Programming Languages :
 
