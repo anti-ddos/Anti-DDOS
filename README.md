@@ -1,7 +1,7 @@
 # Anti DDOS | BASH SCRIPT
 
 <p align="center">
-  <img src="https://media.giphy.com/media/RwGLXLtFyHBsY/giphy.gif">
+  <img src="https://giphy.com/gifs/RwGLXLtFyHBsY/html5">
 </p>
 
 ## Programming Languages :
