@@ -17,20 +17,20 @@ root@ismailtasdelen:~# bash ./anti-ddos.sh
 
 ##### Cloning an Existing Repository ( Clone with HTTPS )
 ```
-git clone https://github.com/ismailtasdelen/Anti-DDOS.git
+root@ismailtasdelen:~# git clone https://github.com/ismailtasdelen/Anti-DDOS.git
 ```
 
 ##### Cloning an Existing Repository ( Clone with SSH )
 ```
-git clone git@github.com:ismailtasdelen/Anti-DDOS.git
+root@ismailtasdelen:~# git clone git@github.com:ismailtasdelen/Anti-DDOS.git
 ```
 
-###### Contact :
+##### Contact :
 
-###### Mail : ismailtasdelen@protonmail.com
+##### Mail : ismailtasdelen@protonmail.com
 
-###### Linkedin : https://www.linkedin.com/in/ismailtasdelen
+##### Linkedin : https://www.linkedin.com/in/ismailtasdelen
 
-###### GitHub : https://github.com/ismailtasdelen
+##### GitHub : https://github.com/ismailtasdelen
 
-###### Telegram : https://t.me/ismailtasdelen
+##### Telegram : https://t.me/ismailtasdelen
