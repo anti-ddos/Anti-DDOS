@@ -6,7 +6,7 @@
 #                       CONTACT                         #
 #########################################################
 #              DEVELOPER : İSMAİL TAŞDELEN              #                       
-#           GMAIL : pentestdatabase@gmail.com           #
+#           GMAIL : ismailtasdelen@protonmail.com       #
 # Linkedin : https://www.linkedin.com/in/ismailtasdelen #
 #           Whatsapp : + 90 534 295 94 31               #
 #########################################################
