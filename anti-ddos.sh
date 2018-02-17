@@ -8,7 +8,7 @@
 #              DEVELOPER : İSMAİL TAŞDELEN              #                       
 #           GMAIL : ismailtasdelen@protonmail.com       #
 # Linkedin : https://www.linkedin.com/in/ismailtasdelen #
-#           Whatsapp : + 90 534 295 94 31               #
+#           Telegram : https://t.me/ismailtasdelen      #
 #########################################################
 
 # For debugging use iptables -v.
