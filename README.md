@@ -10,6 +10,10 @@
 
 * Linux
 
+### Explanation :
+
+
+
 ### RUN
 ```
 root@ismailtasdelen:~# bash ./anti-ddos.sh
