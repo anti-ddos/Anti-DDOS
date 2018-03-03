@@ -12,6 +12,10 @@
 
 ### Explanation :
 
+Anti-DDOS project is an open source software project developed to protect against DOS and DDoS attacks. The project was written using bash programming language. By writing iptables rules into the Linux operating system. Takes the necessary defense configurations. And it only works on the linux operating system. 100% compatible. It does not provide 100% security, it will only help you to take the necessary measures.
+
+### How to use ?
+
 
 
 ### RUN
@@ -42,8 +46,6 @@ root@ismailtasdelen:~# git clone git@github.com:ismailtasdelen/Anti-DDOS.git
 ##### DRAFT Denial of Service Cheat Sheet : https://www.owasp.org/index.php/DRAFT_Denial_of_Service_Cheat_Sheet
 
 ##### Regular expression Denial of Service - ReDoS : https://www.owasp.org/index.php/Regular_expression_Denial_of_Service_-_ReDoS
-
-
 
 ### Contact :
 
