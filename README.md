@@ -47,6 +47,10 @@ root@ismailtasdelen:~# git clone git@github.com:ismailtasdelen/Anti-DDOS.git
 
 ##### Regular expression Denial of Service - ReDoS : https://www.owasp.org/index.php/Regular_expression_Denial_of_Service_-_ReDoS
 
+### Published Website :
+
+##### KitPloit - https://www.kitploit.com/2017/10/anti-ddos-anti-ddos-bash-script.html
+
 ### Contact :
 
 ##### Mail : ismailtasdelen@protonmail.com
