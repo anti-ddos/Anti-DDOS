@@ -439,6 +439,21 @@ $IPTABLES -A FORWARD -j REJECTLOG
 # You should check/test that the firewall really works, using
 # iptables -vnL, nmap, ping, telnet, ...
 
+# Appending rules : Let’s add some more IPv6 rules to our firewall.
+
+sudo ip6tables -A INPUT -p tcp --dport ssh -s HOST_IPV6_IP -j ACCEPT
+sudo ip6tables -A INPUT -p tcp --dport 80 -j ACCEPT
+sudo ip6tables -A INPUT -p tcp --dport 21 -j ACCEPT
+sudo ip6tables -A INPUT -p tcp --dport 25 -j ACCEPT
+
+# To see the IPv6 rules with line numbers, type the following command:
+
+sudo ip6tables -L -n --line-numbers
+
+# Deleting rules
+
+sudo ip6tables -D INPUT -p tcp --dport 21 -j ACCEPT
+
 # Exit gracefully.
 #------------------------------------------------------------------------------
 
