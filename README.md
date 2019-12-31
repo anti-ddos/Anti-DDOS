@@ -1,5 +1,8 @@
 ## Anti DDOS | BASH SCRIPT
 
+<img src="https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg"> <img src="https://img.shields.io/github/stars/anti-ddos/Anti-DDOS?style=social"> <img src="https://img.shields.io/github/forks/anti-ddos/Anti-DDOS?style=social"> <img src="https://img.shields.io/github/repo-size/anti-ddos/Anti-DDOS"> <img src="https://img.shields.io/github/license/anti-ddos/Anti-DDOS"> <img src="https://img.shields.io/github/issues/detail/author/anti-ddos/Anti-DDOS/1">
+
+
 ![anti-ddos](https://user-images.githubusercontent.com/15425071/34910181-caa9f41c-f8c0-11e7-9ec5-6d43adfeb4bd.png) ![bash-language](https://user-images.githubusercontent.com/15425071/34910256-37569a6a-f8c2-11e7-81d8-42dec07d4ef8.png)
 
 ### Programming Languages :
