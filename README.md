@@ -62,6 +62,4 @@ root@ismailtasdelen:~# git clone git@github.com:ismailtasdelen/Anti-DDOS.git
 
 ##### Linkedin : https://www.linkedin.com/in/ismailtasdelen
 
-##### GitHub : https://github.com/ismailtasdelen
-
 ##### Telegram : https://t.me/ismailtasdelen
