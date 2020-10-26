@@ -17,6 +17,7 @@ IP6TABLES="/sbin/ip6tables"
 MODPROBE="/sbin/modprobe"
 RMMOD="/sbin/rmmod"
 ARP="/usr/sbin/arp"
+SSHPORT="22"
 
 # Logging options.
 #------------------------------------------------------------------------------
@@ -325,7 +326,7 @@ $IPTABLES -A OUTPUT -m state --state NEW -p tcp --dport 587 -j ACCEPT
 $IPTABLES -A OUTPUT -m state --state NEW -p tcp --dport 995 -j ACCEPT
 
 # Allow outgoing SSH requests.
-$IPTABLES -A OUTPUT -m state --state NEW -p tcp --dport 22 -j ACCEPT
+$IPTABLES -A OUTPUT -m state --state NEW -p tcp --dport $SSHPORT -j ACCEPT
 
 # Allow outgoing FTP requests. Unencrypted, use with care.
 $IPTABLES -A OUTPUT -m state --state NEW -p tcp --dport 21 -j ACCEPT
@@ -401,7 +402,7 @@ $IPTABLES -A INPUT -m state --state NEW -p tcp --dport 995 -j ACCEPT
 $IPTABLES -A INPUT -m state --state NEW -p tcp --dport 25 -j ACCEPT
 
 # Allow incoming SSH requests.
-$IPTABLES -A INPUT -m state --state NEW -p tcp --dport 22 -j ACCEPT
+$IPTABLES -A INPUT -m state --state NEW -p tcp --dport $SSHPORT -j ACCEPT
 
 # Allow incoming FTP requests.
 $IPTABLES -A INPUT -m state --state NEW -p tcp --dport 21 -j ACCEPT
@@ -441,7 +442,7 @@ $IPTABLES -A FORWARD -j REJECTLOG
 
 # Appending rules : Let’s add some more IPv6 rules to our firewall.
 
-sudo ip6tables -A INPUT -p tcp --dport ssh -s HOST_IPV6_IP -j ACCEPT
+sudo ip6tables -A INPUT -p tcp --dport $SSHPORT -s HOST_IPV6_IP -j ACCEPT
 sudo ip6tables -A INPUT -p tcp --dport 80 -j ACCEPT
 sudo ip6tables -A INPUT -p tcp --dport 21 -j ACCEPT
 sudo ip6tables -A INPUT -p tcp --dport 25 -j ACCEPT
