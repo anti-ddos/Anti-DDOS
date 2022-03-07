@@ -12,15 +12,25 @@
 ### System :
 
 * Linux
-
+* [Windows (via MSYS2)](#windows-installation)
 ### Explanation :
 
-Anti-DDOS project is an open source software project developed to protect against DOS and DDoS attacks. The project was written using bash programming language. By writing iptables rules into the Linux operating system. Takes the necessary defense configurations. And it only works on the linux operating system. 100% compatible for Linux operating systems. It does not provide 100% security, it will only help you to take the necessary measures.
+Anti-DDOS project is an open source software project developed to protect against DOS and DDoS attacks. The project was written using bash programming language. By writing iptables rules into the Linux operating system. Takes the necessary defense configurations. And it only works on the linux operating system (or see [Windows Installation](#windows-installation) for Windows). 100% compatible for Linux operating systems. It does not provide 100% security, it will only help you to take the necessary measures.
 
 ### How to use ?
 
 You need to set the config file according to your system architecture.
+#### Windows Installation
+This requires MSYS2 (`winget install msys2`).
 
+```batch
+msys2
+```
+```sh
+git clone https://github.com/anti-ddos/Anti-DDOS
+cd ~/Anti-DDOS
+bash ./anti-ddos.sh
+```
 ### RUN
 ```
 root@ismailtasdelen:~# bash ./anti-ddos.sh
