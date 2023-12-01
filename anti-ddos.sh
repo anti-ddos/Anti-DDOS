@@ -161,6 +161,10 @@ fi
 # Custom user-defined chains.
 #------------------------------------------------------------------------------
 
+# Rate limit ICMP packets
+iptables -A INPUT -p icmp --icmp-type echo-request -m limit --limit 1/s -j ACCEPT
+iptables -A INPUT -p icmp --icmp-type echo-request -j DROP
+
 # LOG packets, then ACCEPT.
 "$IPTABLES" -N ACCEPTLOG
 "$IPTABLES" -A ACCEPTLOG -j "$LOG" "$RLIMIT" --log-prefix "ACCEPT "
@@ -227,6 +231,8 @@ fi
 # Selectively allow certain special types of traffic.
 #------------------------------------------------------------------------------
 
+
+
 # Allow loopback interface to do anything.
 "$IPTABLES" -A INPUT -i lo -j ACCEPT
 "$IPTABLES" -A OUTPUT -o lo -j ACCEPT
@@ -239,6 +245,9 @@ fi
 
 # Miscellaneous.
 #------------------------------------------------------------------------------
+
+# Improved SYN protection rather than the 7 year old syn protection
+iptables -A INPUT -p tcp --syn -m connlimit --connlimit-above 10 -j DROP
 
 # We don't care about Milkosoft, Drop SMB/CIFS/etc..
 "$IPTABLES" -A INPUT -p tcp -m multiport --dports 135,137,138,139,445,1433,1434 -j DROP
